@@ -168,3 +168,69 @@ article form label{
     color: #ECB2E4;
     border-color: #ECB2E4;
 }
+
+
+.foto{
+    width: 100%;
+    float: left;
+    border-radius: 10px;
+    margin-top: 5%;
+}
+
+.galeria1 {
+    width: 80%;
+    border: none;
+    background-color: #00000000;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.cajaPlan {
+    float: left;
+    width: 28%;
+    margin: 1.5%;
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 10px;
+    height: 450px;
+    margin-bottom: 5%;
+    font-size: 15px;
+    
+}
+.cantidad{
+    float: left;
+    margin-left: 50%;
+    margin-top: 3%;
+    font-size: 15px;
+}
+
+.cantitexto{
+    float: right;
+    width: 12%;
+    text-align: center;
+    margin-top: 4%;
+    font-size: 15px;
+
+}
+
+.footer2{
+    clear: both;
+    margin: 0;
+    margin-top: 5%;
+    background-color: #ECB2E4;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 22px;
+    text-align: center;
+}
+
+.textoPlan{
+    clear: both;
+    font-size: 20px;
+    text-align: center;
+    list-style: none;
+    margin-left: 3px;
+    margin-right: 3px;
+    padding-bottom: 10px;
+}
