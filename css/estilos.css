@@ -60,16 +60,6 @@ nav a:hover{
     border-radius: 10%;
 }
 
-footer{
-    clear: both;
-    margin-top: 5%;
-    background-color: #ECB2E4;
-    padding-top: 25px;
-    padding-bottom: 25px;
-    font-size: 22px;
-    text-align: center;
-}
-
 .fotobanner{
     width: 80%;
     padding-left: 10%;
@@ -114,6 +104,15 @@ figure img{
     margin-right: auto;
 }
 
+footer{
+    clear: both;
+    margin-top: 5%;
+    background-color: #ECB2E4;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 22px;
+    text-align: center;
+}
 
 
 article h1{
@@ -233,4 +232,94 @@ article form label{
     margin-left: 3px;
     margin-right: 3px;
     padding-bottom: 10px;
+}
+
+
+
+
+
+@media screen and (max-width:850px){
+    header img{
+        width: 50px;
+        margin-top: 2%;
+    }
+
+    article{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    nav a{
+        font-size: 20px;
+        padding-left: 5px;
+        padding-right: 10px;
+    }
+
+    article p{
+        font-size: 18px;
+    }
+
+    footer{
+        font-size: 18px;
+    }
+
+    .fotoprincipal{
+    width: 35%;
+    padding-top: 14%;
+    margin-left: 30%;
+    margin-bottom: 8%;
+    }
+
+    #tabla_1{
+    padding-top: 5%;
+    padding-right: 10%;
+    } 
+
+
+    .foto{
+        width: 100%;
+        clear: both;
+    }
+
+    .boton{
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #ECB2E4;
+    color: #000000;
+    width: 30%;
+    height: 50px;
+    border-radius: 15px;
+    border-color: #8570b389;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    }
+
+    .cajaPlan {
+    float: left;
+    width: 40%;
+    margin: 2%;
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 10px;
+    height: 45%;
+    margin-bottom: 3%;
+    font-size: 15px;
+    
+}
+.cantidad{
+    float: left;
+    margin-left: 10%;
+    margin-top: 5%;
+    font-size: 15px;
+}
+
+.cantitexto{
+    float: right;
+    width: 20%;
+    text-align: center;
+    margin-top: 7%;
+    font-size: 15px;
+
+}
+
 }
