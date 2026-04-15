@@ -1,0 +1,115 @@
+html, body, h1, h2, h3, ul, li, a, p, figure{
+    margin:0;
+    padding: 0;
+    font-family: Calibri, Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #D5D4F3;
+}
+
+header{
+    height: 70px;
+    background-color: #ECB2E4;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+header img{
+    float: left;
+    margin-left: 2%;
+    width: 55px;
+    margin-top: 8px;
+}
+
+header h1{
+    float: left;
+    font-size: 20px;
+    color: #000000;
+    margin-left: 15px;
+    margin-top: 21px;
+
+}
+
+nav{
+    float:right;
+    background-color: #ECB2E4;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+nav ul li{
+    display: inline;
+    text-align: center;
+}
+
+nav a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #000000;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+nav a:hover{
+    background-color: #60499189;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10%;
+}
+
+footer{
+    clear: both;
+    margin-top: 5%;
+    background-color: #ECB2E4;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 22px;
+    text-align: center;
+}
+
+.fotobanner{
+    width: 80%;
+    padding-left: 10%;
+    padding-top: 4%;
+}
+
+.fotoprincipal{
+    float: left;
+    width: 19%;
+    padding-top: 14%;
+    margin-left: 20%;
+    border-radius: 7%;
+    margin-bottom: 8%;
+}
+
+#tabla_1{
+    float: right;
+    padding-top: 19%;
+    padding-right: 200px;
+}
+
+#tabla_1 tr td{
+    padding-bottom: 5%;
+
+}
+
+#tabla_1 tr td h3{
+    font-size: 24px;
+}
+
+#tabla_1 tr td p{
+    font-size: 20px;
+
+}
+
+figure img{
+    width: 80%;
+    border-radius: 15px;
+    border:2px solid #000000;
+    margin-top: 20px;
+    margin-left: 11%;
+    margin-right: auto;
+}
